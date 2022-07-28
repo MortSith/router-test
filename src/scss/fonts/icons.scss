@@ -1,0 +1,49 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+		color: #669BF9;
+	}
+}
+
+
+
+._icon-arr-l-small:before {
+content: "\e900";
+}
+._icon-imail:before {
+content: "\e901";
+}
+._icon-iphone:before {
+content: "\e902";
+}
+._icon-arr-l:before {
+content: "\e903";
+color:rgb(0, 103, 194);
+}
+._icon-arr-r:before {
+content: "\e904";
+color:aliceblue;
+}
+._icon-icontacts:before {
+content: "\e905";
+}
+._icon-iabout:before {
+content: "\e906";
+}
+._icon-istar:before {
+content: "\e907";
+}
+._icon-icat:before {
+content: "\e908";
+}
